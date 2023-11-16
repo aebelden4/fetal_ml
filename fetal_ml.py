@@ -5,6 +5,10 @@
 import streamlit as st
 import pandas as pd
 import pickle
+
+import sklearn
+from sklearn.ensemble import RandomForestClassifier
+
 import warnings
 warnings.filterwarnings('ignore')
 
